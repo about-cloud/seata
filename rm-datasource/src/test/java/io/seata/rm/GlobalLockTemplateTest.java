@@ -109,7 +109,7 @@ class GlobalLockTemplateTest {
 
     private GlobalLockConfig generateGlobalLockConfig() {
         GlobalLockConfig config = new GlobalLockConfig();
-        config.setLockRetryInternal(100);
+        config.setLockRetryInterval(100);
         config.setLockRetryTimes(3);
         return config;
     }

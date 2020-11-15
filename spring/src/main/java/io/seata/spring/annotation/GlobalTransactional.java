@@ -90,7 +90,7 @@ public @interface GlobalTransactional {
      * note: 0 or negative number will take no effect(which mean fall back to global config)
      * @return
      */
-    int lockRetryInternal() default 0;
+    int lockRetryInterval() default 0;
 
     /**
      * customized global lock retry times
